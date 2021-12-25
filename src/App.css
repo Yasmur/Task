@@ -1,0 +1,70 @@
+.block {
+  display: flex;
+  flex-wrap:wrap;
+
+  justify-content: center;
+}
+.item {
+  position: relative;
+  
+  border:solid 2px black;
+
+ 
+  max-width: 350px;
+  width: 250px;
+  margin: 1%;
+  min-height: 150px;
+ text-align:center;
+
+}
+.item-description {
+  display: flex;
+  padding: 30px;
+
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+h1{
+  margin: 0px 110px;
+}
+#delete-checkbox {
+position: absolute;
+top: 20px;
+left: 15px;
+
+display: inline;
+
+height: 15px;
+width: 15px;
+
+}
+#delete-checkbox:hover{
+  box-shadow: 1px 1px 2px 2px gray;
+
+}
+button{
+  border: black 2px solid;
+ 
+  box-shadow: 3px 3px 3px black;
+  width: 120px;
+}
+  button:hover{ background: rgb(182, 181, 177); }
+
+  .add {
+    width: 60px;
+  }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items:baseline;
+  margin: 0 70px 0 15px;
+}
+
+.foot{
+  text-align: center;
+} 
+
+#delete-product-btn{
+  margin: 0px 80px 0 25px ;
+}
